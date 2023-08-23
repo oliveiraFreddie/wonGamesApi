@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "developers",
   "info": {
-    "singularName": "category",
-    "pluralName": "categories",
-    "displayName": "category"
+    "singularName": "developer",
+    "pluralName": "developers",
+    "displayName": "developer"
   },
   "options": {
     "draftAndPublish": true
@@ -25,7 +25,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::game.game",
-      "mappedBy": "categories"
+      "mappedBy": "developers"
     }
   }
 }

@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "platforms",
   "info": {
-    "singularName": "category",
-    "pluralName": "categories",
-    "displayName": "category"
+    "singularName": "platform",
+    "pluralName": "platforms",
+    "displayName": "platform"
   },
   "options": {
     "draftAndPublish": true
@@ -25,7 +25,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::game.game",
-      "mappedBy": "categories"
+      "mappedBy": "platforms"
     }
   }
 }
