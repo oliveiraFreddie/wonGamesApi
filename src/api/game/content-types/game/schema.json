@@ -8,28 +8,31 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "name": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "slug": {
       "type": "uid",
       "targetField": "name",
-      "required": true
+      "required": false
     },
     "short_description": {
       "type": "text",
-      "required": true,
-      "maxLength": 160
+      "required": false
     },
     "description": {
-      "type": "richtext",
-      "required": true
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     },
     "price": {
       "type": "decimal",
@@ -42,30 +45,20 @@
     },
     "rating": {
       "type": "enumeration",
-      "enum": [
-        "FREE",
-        "pegi 3",
-        "pegi 7",
-        "pegi 12",
-        "pegi 16",
-        "pedi 18"
-      ]
+      "enum": ["pegi3", "pegi7", "pegi12", "pegi16", "pegi18"],
+      "default": "pegi3"
     },
     "cover": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "gallery": {
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "categories": {
       "type": "relation",
