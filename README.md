@@ -1,57 +1,48 @@
-# 🚀 Getting started with Strapi
+# 🚀 Won Games API
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+## EN
 
-### `develop`
+## Description
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+The _Won Games API_ is a Strapi application that provides game data for a future e-commerce called _Won Games_. This API is responsible for serving information about the games that will be sold on the website. This data has been populated through a Scrapper that collected information from the _gog.com_. The API has been customized according to the Won Games brand.
 
-```
-npm run develop
-# or
-yarn develop
-```
+## Features
 
-### `start`
+Providing game data to the frontend of the Won Games website.
+User permission management for e-commerce maintenance.
+Integration with Strapi plugins to support features such as CKEditor, GraphQL, and user and permission management.
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+## Prerequisites
 
-```
-npm run start
-# or
-yarn start
-```
+Before you begin using the API, make sure you have the following installed:
 
-### `build`
+Node.js (version >=16.0.0 <=20.x.x)
+npm (version >=6.0.0)
+PostgreSQL (version 8.8.0)
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
+## PT-br
 
-```
-npm run build
-# or
-yarn build
-```
+## Descrição
 
-## ⚙️ Deployment
+A _Won Games API_ é uma aplicação Strapi que fornece dados de jogos para um futuro e-commerce _"Won Games"_. Essa API é responsável por servir informações sobre os jogos que serão vendidos no site. Esses dados foram populados através de um Scrapper que coletou informações do site _gog.com_. A API foi customizada de acordo com a marca Won Games.
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+## Funcionalidades
 
-## 📚 Learn more
+Fornecimento de dados de jogos para o frontend do site Won Games. Fácil manutenção do e-commerce.
+Integração com plugins Strapi para suportar funcionalidades como CKEditor, GraphQL e gerenciamento de usuários e permissões.
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+## Pré-requisitos
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+Antes de começar a utilizar a API, certifique-se de ter instalado:
 
-## ✨ Community
+Node.js (versão >=16.0.0 <=20.x.x)
+npm (versão >=6.0.0)
+PostgreSQL (versão 8.8.0)
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+## Screenshots
 
----
+![Página de Início](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171538.png)
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+![Menu](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171602.png)
+
+![Navegação](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171647.png)
