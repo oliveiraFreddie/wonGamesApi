@@ -4,6 +4,14 @@ This is a [Strapi](https://strapi.io/) API built as one of the projects from the
 
 Where I am mastering my knowledge of APIs, Strapi, GraphQL, PostgreSQL.
 
+### Screenshots
+
+![Página de Início](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171538.png)
+
+![Menu](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171602.png)
+
+![Navegação](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171647.png)
+
 ## Requirements
 
 This project uses [PostgreSQL](https://www.postgresql.org/), so, in order to make it working, install in your local machine or use Docker.
@@ -73,11 +81,3 @@ Antes de começar a utilizar a API, certifique-se de ter instalado:
 Node.js (versão >=16.0.0 <=20.x.x)
 npm (versão >=6.0.0)
 PostgreSQL (versão 8.8.0)
-
-### Screenshots
-
-![Página de Início](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171538.png)
-
-![Menu](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171602.png)
-
-![Navegação](https://github.com/oliveiraFreddie/screenshots/blob/6c4aede5e592b2391fa4a5052ae03ac4323f07ed/Captura%20de%20tela%202023-09-04%20171647.png)
